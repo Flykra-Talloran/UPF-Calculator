@@ -1,10 +1,12 @@
 # UPF-Calculator
 UPF calculator, only transmittance is required
 
-How to use:
+# How to use:
 pip install pandas numpy openpyxl pvlib 
+
 python UPF.py your_file.xlsx --use-pvlib --wl nm --T T --step 1
-=======================================================================
+
+-----------------------------------------------------------------------
 your_file.xlsx is your data file. Example:<img width="248" height="137" alt="image" src="https://github.com/user-attachments/assets/248dab74-eb79-455a-9038-ab122404c46f" />
 
 
@@ -27,7 +29,8 @@ The calculated result was 1.41, which is close to the paper（https://doi.org/10
 透过率是百分数形式（比如85表示85%），最大值会大于1，于是脚本会自动除以 100 转换到 0–1 区间。）
 
 用法：
-    python UPF.py your_file.xlsx --use-pvlib --wl nm --T T --step 1
+pip install pandas numpy openpyxl pvlib 
+python UPF.py your_file.xlsx --use-pvlib --wl nm --T T --step 1
     
 附加了聚乳酸薄片的数据作为示例 计算结果为1.41，与文章（https://doi.org/10.1016/j.cej.2023.145753）中1.40相近，证明程序可靠
 <img width="152" height="435" alt="image" src="https://github.com/user-attachments/assets/a43aea9f-061c-4b29-a302-3979a6177bef" />
