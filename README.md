@@ -3,8 +3,9 @@ UPF calculator, only transmittance is required
 
 How to use:
 python UPF.py your_file.xlsx --use-pvlib --wl nm --T T --step 1
-your_file.xlsx is your data file. Example:<img width="248" height="137" alt="image" src="https://github.com/user-attachments/assets/248dab74-eb79-455a-9038-ab122404c46f" />
 =======================================================================
+your_file.xlsx is your data file. Example:<img width="248" height="137" alt="image" src="https://github.com/user-attachments/assets/248dab74-eb79-455a-9038-ab122404c46f" />
+
 
 Calculated in accordance with AS/NZS 4399:1996. E(λ) is taken from ASTM G-173-03 (the standard ground-level solar spectrum), and ε(λ) is computed using the CIE erythemal formula (McKinlay & Diffey, 1987).
 
