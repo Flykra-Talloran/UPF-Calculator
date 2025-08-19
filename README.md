@@ -19,7 +19,6 @@ If the transmittance is given in percentage form (e.g., 85 meaning 85%), the max
 
 The data of a polylactic acid (PLA) film was included as an example.
 The calculated result was 1.41, which is close to the paper（https://doi.org/10.1016/j.cej.2023.145753） value of 1.40, demonstrating the reliability of the program.
-<img width="152" height="435" alt="image" src="https://github.com/user-attachments/assets/a43aea9f-061c-4b29-a302-3979a6177bef" />
 
 采用AS/NZS 4399:1996标准，其中E(λ)为ASTM G‑173‑03（标准地面太阳光谱），ε(λ)采用CIE erythemal 公式（McKinlay & Diffey, 1987）计算
 
@@ -33,4 +32,3 @@ pip install pandas numpy openpyxl pvlib
 python UPF.py your_file.xlsx --use-pvlib --wl nm --T T --step 1
     
 附加了聚乳酸薄片的数据作为示例 计算结果为1.41，与文章（https://doi.org/10.1016/j.cej.2023.145753）中1.40相近，证明程序可靠
-<img width="152" height="435" alt="image" src="https://github.com/user-attachments/assets/a43aea9f-061c-4b29-a302-3979a6177bef" />
